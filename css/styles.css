@@ -1,0 +1,22 @@
+@font-face {
+	font-family: 'DQFont';
+	src: url('../font/PixelMplus10-Regular.ttf');
+}
+
+body {
+  margin: 0;
+  font-family: DQFont;
+  background-color: black;
+  color: white;
+}
+
+header {
+  padding: 8px;
+}
+
+.header_container　{
+  border-width: 3px;
+  border-style: solid;
+  border-color: white;
+  border-radius: 3px;
+}
