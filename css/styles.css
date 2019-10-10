@@ -22,7 +22,7 @@ header {
   border-color: white;
   border-radius: 10px;
 	text-align: center;
-	font-size: 60px;
+	font-size: 30px;
 	padding: 10px;
 }
 
@@ -35,12 +35,8 @@ section {
   border-style: solid;
   border-color: white;
   border-radius: 10px;
-	font-size: 40px;
+	font-size: 15px;
 	padding: 10px;
-}
-
-.skill_container {
-	font-size: 37px;
 }
 
 .status_container table {
@@ -56,8 +52,12 @@ section {
 	padding-bottom: 30px;
 }
 
-.status_container td:nth-child(3)  {
+/* .status_container td:nth-child(3)  {
 	padding-left: 100px;
+} */
+
+.skill_container {
+	font-size: 12px;
 }
 
 .skill_container table {
@@ -73,5 +73,5 @@ section {
 }
 
 .skill_container td:first-child {
-	padding-left: 30px;
+	padding-left: 5px;
 }
