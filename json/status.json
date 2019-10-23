@@ -1,0 +1,20 @@
+{
+  "name": "だいすけ",
+  "level": 3,
+  "hp": 10,
+  "mp": 13,
+  "power": 6,
+  "strength": 4,
+  "quickness": 3,
+  "wisdom": 11,
+  "skill":[
+    {
+      "name": "統計学",
+      "exp": 0
+    },
+    {
+      "name": "子守",
+      "exp": 2190
+    }
+  ]
+}
