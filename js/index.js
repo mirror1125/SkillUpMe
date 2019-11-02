@@ -8,6 +8,7 @@ function getJSON() {
 		if(req.readyState == 4 && req.status == 200){	// サーバーからのレスポンスが完了し、かつ、通信が正常に終了した場合
 
 			var data = JSON.parse(req.responseText);	// 取得した JSON ファイルの中身を変数へ格納
+      console.log(data);
 		}
 	};
 	req.open("GET", "./json/status.json", false);				// HTTPメソッドとアクセスするサーバーのURLを指定
