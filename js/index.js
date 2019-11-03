@@ -30,5 +30,24 @@ function setStatus(profile) {
 }
 
 function setSkill(profile) {
+	var tbody_skill = document.getElementById("skill");
+	tbody_skill.innerHTML = null;
 
+	for (var i = 0; i < profile["skill"].length; i++) {
+		var tr_skill = document.createElement("tr");
+		var td_name = document.createElement("td");
+
+		td_name.innerText = profile["skill"][i]["name"] + "　レベル：";
+
+		var td_level = document.createElement("td");
+		var level = Math.floor(Math.sqrt(profile["skill"][i]["exp"]))
+		td_level.innerText = level;
+
+		var td_toNext = document.createElement("td");
+		td_toNext.innerText = "NEXT：" + (Math.pow(level + 1, 2) - profile["skill"][i]["exp"]) + "時間";
+		tr_skill.append(td_name);
+		tr_skill.append(td_level);
+		tr_skill.append(td_toNext);
+		tbody_skill.append(tr_skill);
+	}
 }

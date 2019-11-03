@@ -7,14 +7,14 @@
   "strength": 4,
   "quickness": 3,
   "wisdom": 11,
-  "skill":[
+  "skill": [
     {
       "name": "統計学",
-      "exp": 0
+      "exp": 10
     },
     {
       "name": "子守",
-      "exp": 2190
+      "exp": 19710
     }
   ]
 }
